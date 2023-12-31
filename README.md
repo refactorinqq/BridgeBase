@@ -14,7 +14,7 @@ This article](https://github.com/Decencies/Articles/wiki/Lunar---Bridge) by Dece
 
 The Bridge is an inheritance based system which uses Interfaces to allow the client to work on multiple versions with minimal modification. (Decencies 1)
 
-This is how most clients multi version. Our implementation is the same as Lunar's
+This is how most clients multi version. Our implementation is very similar to Lunar and other popular clients'
 
 In our implementation, all the client code is stored in the Client module, which has no access to the Minecraft API.
 You have to create your own bridges and use them. In the target versions, you'd implement those bridges to access the Minecraft API.
