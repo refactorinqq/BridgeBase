@@ -1,6 +1,6 @@
 # Bridge Base
 
-An easy-to-use base with bridging already set up for client developers.
+An easy-to-use base with base bridging already set up.
 
 [![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](http://creativecommons.org/licenses/by/4.0/)
 
@@ -9,6 +9,8 @@ An easy-to-use base with bridging already set up for client developers.
 ## The Bridge
 
 The Bridge is an inheritance based system which uses Interfaces to allow the client to work on multiple versions with minimal modification. (Decencies 1)
+
+This is how most clients multi version. Our implementation is the same as Lunar's
 
 In our implementation, all the client code is stored in the Client module, which has no access to the Minecraft API.
 You have to create your own bridges and use them. In the target versions, you'd implement those bridges to access the Minecraft API.
