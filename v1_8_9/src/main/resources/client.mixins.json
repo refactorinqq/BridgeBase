@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "dev.refactoring.mixins",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [
+  ],
+  "client": [
+    "MixinMinecraftClient",
+    "input.MixinKeyBinding"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

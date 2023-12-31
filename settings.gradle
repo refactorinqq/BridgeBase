@@ -1,0 +1,24 @@
+pluginManagement {
+    repositories {
+        maven {
+            name = "Fabric"
+            url = "https://maven.fabricmc.net/"
+        }
+        maven {
+            name = "legacy-fabric"
+            url = "https://repo.legacyfabric.net/repository/legacyfabric/"
+        }
+        gradlePluginPortal()
+    }
+}
+
+plugins {
+    id 'org.gradle.toolchains.foojay-resolver-convention' version '0.5.0'
+}
+
+rootProject.name = 'BridgeBase'
+include 'Client'
+include 'Bridge'
+include 'v1_8_9'
+include 'v1_19_4'
+

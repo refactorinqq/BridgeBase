@@ -1,0 +1,16 @@
+plugins {
+    id "fabric-loom" version "1.4-SNAPSHOT" apply false
+    id 'java'
+    id "io.freefair.lombok" version '6.6.+' apply false
+}
+
+group = 'dev.refactoring'
+version = '1.0-SNAPSHOT'
+
+subprojects {
+    apply plugin: "io.freefair.lombok"
+}
+
+repositories {
+    mavenCentral()
+}

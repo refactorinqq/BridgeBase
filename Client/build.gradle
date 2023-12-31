@@ -1,0 +1,30 @@
+plugins {
+    id 'java'
+}
+
+group = 'dev.refactoring'
+version = '1.0-SNAPSHOT'
+
+sourceCompatibility = JavaVersion.VERSION_17
+targetCompatibility = JavaVersion.VERSION_17
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    /**
+     * The LWJGL OpenGL Bindings are added because they're the same in all versions.
+     * They'll be available during runtime anyway.
+     */
+    implementation platform("org.lwjgl:lwjgl-bom:3.3.2")
+
+    implementation("org.lwjgl:lwjgl-opengl:3.3.2")
+
+    implementation project(":Bridge") // You need to reference this in every module.
+    // You also need to reference the client project.
+}
+
+test {
+    useJUnitPlatform()
+}

@@ -1,0 +1,10 @@
+plugins {
+    id 'java'
+}
+
+group = 'dev.refactoring'
+version = '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}

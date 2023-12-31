@@ -1,0 +1,49 @@
+[01:07:48] [main/INFO] (FabricLoader/GameProvider) Loading Minecraft 1.8.9 with Fabric Loader 0.15.2
+[01:07:48] [main/INFO] (FabricLoader) Loading 30 mods:
+	- fabricloader 0.15.2
+	- java 17
+	- legacy-fabric-api 1.9.1+1.8.9
+	- legacy-fabric-api-base 1.1.0+1.8.9+f368a06d39
+	- legacy-fabric-api-base-common 1.1.0+1dd3cad892
+	- legacy-fabric-command-api-v1 1.0.0+ae4aa0d092
+	- legacy-fabric-command-api-v2 1.0.0+1.8.9+01f7587839
+	- legacy-fabric-crash-report-info-v1 1.0.0+1.8.9+f368a06d39
+	- legacy-fabric-entity-events-v1 1.0.0+1.8.9+f368a06d39
+	- legacy-fabric-entity-events-v1-common 1.0.0+ae4aa0d092
+	- legacy-fabric-gamerule-api-v1 1.0.0+ae4aa0d092
+	- legacy-fabric-item-groups-v1 2.0.0+1.8.9+f368a06d39
+	- legacy-fabric-item-groups-v1-common 2.0.0+1dd3cad892
+	- legacy-fabric-keybinding-api-v1-common 1.0.0+ae4aa0d092
+	- legacy-fabric-lifecycle-events-v1 1.0.1+1.8.9+d86bee7939
+	- legacy-fabric-lifecycle-events-v1-common 1.0.1+ae4aa0d092
+	- legacy-fabric-logger-api-v1 1.0.4+ae4aa0d092
+	- legacy-fabric-networking-api-v1 2.0.0+1.8.9+01f7587839
+	- legacy-fabric-networking-api-v1-common 2.0.0+022f9a7592
+	- legacy-fabric-permissions-api-v1 1.0.0+1.8.9+f368a06d39
+	- legacy-fabric-permissions-api-v1-common 1.0.0+ae4aa0d092
+	- legacy-fabric-registry-sync-api-v1 2.1.0+1.8.9+508c546039
+	- legacy-fabric-registry-sync-api-v1-common 2.1.0+508c546092
+	- legacy-fabric-rendering-api-v1 1.0.0+1.8.9+022f9a7539
+	- legacy-fabric-rendering-api-v1-common 1.0.0+ae4aa0d092
+	- legacy-fabric-resource-loader-v1 2.1.0+1.8.9+022f9a7539
+	- legacy-fabric-resource-loader-v1-common 2.1.0+a9c128f492
+	- minecraft 1.8.9
+	- mixinextras 0.3.2
+	- testclient 1.0.0
+[01:07:48] [main/INFO] (FabricLoader/Mixin) SpongePowered MIXIN Subsystem Version=0.8.5 Source=file:/C:/Users/rohan/.gradle/caches/modules-2/files-2.1/net.fabricmc/sponge-mixin/0.12.5+mixin.0.8.5/8d31fb97c3e0cd7c8dad3441851c523bcfae6d8e/sponge-mixin-0.12.5+mixin.0.8.5.jar Service=Knot/Fabric Env=CLIENT
+[01:07:48] [main/INFO] (FabricLoader/Mixin) Loaded Fabric development mappings for mixin remapper!
+[01:07:49] [main/INFO] (FabricLoader/MixinExtras|Service) Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.3.2).
+[01:07:49] [main/INFO] (Minecraft) Setting user: Player56
+[01:07:49] [main/INFO] (Minecraft) (Session ID is token:FabricMC:Player56)
+[01:07:51] [main/INFO] (Minecraft) LWJGL Version: 2.9.4
+[01:07:52] [main/INFO] (Minecraft) Reloading ResourceManager: Default, Legacy Fabric Rendering API (V1), Legacy Fabric Command API (v2), Legacy Fabric Rendering API (V1), Fabric Loader, Legacy Fabric Entity Events (V1), Legacy Fabric Registry Sync API (V1), Legacy Fabric Permissions API (v2), Legacy Fabric Registry Sync API (V1), Legacy Fabric Command API (V1), Legacy Fabric Item Groups (V1), Legacy Fabric Lifecycle Events (V1), Legacy Fabric API Base Common, Legacy Fabric Crash Report Info (v1), Fabric Gamerule API (v1), Legacy Fabric Networking API (v1), Legacy Fabric Item Groups (V1), Legacy Fabric Permissions API (v1), Legacy Fabric Keybinding API (V1), Legacy Fabric API Base, Legacy Fabric Entity Events (V1), Legacy Fabric Logger API (v1), Legacy Fabric API, Legacy Fabric Resource Loader (V1), Legacy Fabric Networking API (v1), Legacy Fabric Lifecycle Events (V1), Legacy Fabric Resource Loader (V1) Common
+[01:07:53] [main/ERROR] (Minecraft) Couldn't initialize twitch stream
+[01:07:53] [Sound Library Loader/INFO] (Minecraft) Starting up SoundSystem...
+[01:07:53] [Thread-6/INFO] (Minecraft) Initializing LWJGL OpenAL
+[01:07:53] [Thread-6/INFO] (Minecraft) (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[01:07:53] [Thread-6/INFO] (Minecraft) OpenAL initialized.
+[01:07:53] [Sound Library Loader/INFO] (Minecraft) Sound engine started
+[01:07:54] [main/INFO] (Minecraft) Created: 512x512 textures-atlas
+[01:07:59] [main/INFO] (Minecraft) Stopping!
+[01:07:59] [main/INFO] (Minecraft) SoundSystem shutting down...
+[01:07:59] [main/WARN] (Minecraft) Author: Paul Lamb, www.paulscode.com

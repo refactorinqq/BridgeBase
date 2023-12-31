@@ -1,0 +1,70 @@
+import org.gradle.internal.os.OperatingSystem
+
+plugins {
+    id "fabric-loom" version "1.4-SNAPSHOT"
+    id "legacy-looming" version "1.4-SNAPSHOT" // Version must be the same as fabric-loom's
+    id "maven-publish"
+}
+
+base.archivesName = project.archives_base_name
+version = project.mod_version
+group = project.maven_group
+
+repositories {
+}
+
+loom {
+}
+
+dependencies {
+    minecraft "com.mojang:minecraft:${project.minecraft_version}"
+    mappings(legacy.yarn(project.minecraft_version, project.yarn_build))
+    modImplementation "net.fabricmc:fabric-loader:${project.loader_version}"
+
+    modImplementation "net.legacyfabric.legacy-fabric-api:legacy-fabric-api:${project.fabric_version}"
+
+    /* Client Dependencies */
+
+    implementation project(path: ':Bridge') // You NEED to reference these two!
+    implementation project(path: ':Client')
+}
+
+processResources {
+    inputs.property "version", project.version
+
+    filesMatching("fabric.mod.json") {
+        expand "version": project.version
+    }
+}
+
+tasks.withType(JavaCompile).configureEach {
+    it.options.encoding = "UTF-8"
+
+    if (JavaVersion.current().isJava9Compatible()) {
+        it.options.release = 17
+    }
+}
+
+java {
+    sourceCompatibility = JavaVersion.VERSION_17
+    targetCompatibility = JavaVersion.VERSION_17
+
+    withSourcesJar()
+}
+
+jar {
+    from("LICENSE") {
+        rename { "${it}_${base.archivesName.get()}" }
+    }
+}
+
+publishing {
+    publications {
+        mavenJava(MavenPublication) {
+            from components.java
+        }
+    }
+
+    repositories {
+    }
+}

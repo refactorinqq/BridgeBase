@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "id": "testclient",
+  "version": "${version}",
+  "name": "Test Client",
+  "description": "",
+  "authors": [
+    "Refactoring"
+  ],
+  "contact": {
+    "homepage": "https://aetherium.club",
+    "sources": "https://github.com/Aetherium-Development"
+  },
+  "license": "CC0-1.0",
+  "icon": "",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "dev.refactoring.ClientEntrypoint"
+    ]
+  },
+  "mixins": [
+    "client.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.14.19",
+    "minecraft": "1.8.9"
+  },
+  "suggests": {
+  }
+}
