@@ -81,7 +81,7 @@ By following these steps, you seamlessly integrate your needed bridge into Bridg
 
 Feel free to explore the [repository](https://github.com/refactorinqq/BridgeBase) for additional details and updates. 
 
-🔥 Happy bridging!
+🔥 Happy bridging, and star if you have found this useful!
 
 ### Contributing
 
