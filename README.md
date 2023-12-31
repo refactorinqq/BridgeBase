@@ -4,7 +4,11 @@ An easy-to-use base with base bridging already set up.
 
 [![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](http://creativecommons.org/licenses/by/4.0/)
 
-<b>Before starting off, I highly suggest you read [this article](https://github.com/Decencies/Articles/wiki/Lunar---Bridge) by Decencies on Bridges.</b>
+<b>Before starting off, I highly suggest you read:
+
+[This article](https://refactoringg.medium.com/how-bridges-work-a-tutorial-on-how-to-create-a-bridge-system-for-your-client-9e264342ca9a) by Me and <br>[
+This article](https://github.com/Decencies/Articles/wiki/Lunar---Bridge) by Decencies.
+</b>
 
 ## The Bridge
 
